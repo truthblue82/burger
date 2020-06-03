@@ -22,9 +22,32 @@ It correctly bundles React in production mode and optimizes the build for the be
 $>npm run build
 ```
 The build is minified and the filenames include the hashes.<br />
+
+## Deploy to firebase
+
+Install Firebase CLI:
+```
+$>npm install -g firebase-tools
+```
+
+Sign in to Google
+```
+$>firebase login
+```
+
+Initiate project
+```
+$>firebase init
+```
+
+Deploy to firebase hosting
+```
+$>firebase deploy
+```
+
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Go to firebase -> Hosting to see the url of the deployment.
 
 ## One way operation
 
